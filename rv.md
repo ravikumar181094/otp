@@ -52,6 +52,18 @@ git add .
 git commit -m "initial commit"
 git push -u origin master
 ````
+## Re-publish Package
+````
+npm version 1.0.1
+npm publish
+````
 ## Consume our package
+
+=> Install our packages
+````
+npm i rv-otp-generator
+import generateOtp from 'rv-otp-generator'
+````
+=> call using `generateOtp(6)`
 
 
