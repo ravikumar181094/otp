@@ -1,0 +1,24 @@
+{
+  "name": "rv-otp-generator",
+  "version": "1.0.0",
+  "description": "To generate otp",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravikumar181094/otp.git"
+  },
+  "keywords": [
+    "otp",
+    "otp-react"
+  ],
+  "author": "Ravi Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravikumar181094/otp/issues"
+  },
+  "homepage": "https://github.com/ravikumar181094/otp#readme"
+}
