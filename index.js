@@ -4,7 +4,7 @@ const getRandomPin = (chars, len)=>[...Array(len)].map(
     ).join('');
     
 function generateOtp(digit=4){
-    getRandomPin('0123456789',digit);
+    return getRandomPin('0123456789',digit);
 }
 
 export default generateOtp;
